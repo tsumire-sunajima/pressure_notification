@@ -1,0 +1,17 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment files
+.env 
+# (もしpython-dotenvなどを使用する場合)
+
+# Runtime state files
+last_notification_status.json 
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.swp
