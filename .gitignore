@@ -11,6 +11,9 @@ __pycache__/
 # Runtime state files
 last_notification_status.json 
 
+# debug files
+api_response_debug.json
+
 # IDE/Editor specific files
 .vscode/
 .idea/
