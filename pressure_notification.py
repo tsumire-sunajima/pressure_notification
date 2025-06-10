@@ -164,8 +164,8 @@ def main():
     weather_data = get_weather_forecast(OPENWEATHERMAP_API_KEY, LATITUDE, LONGITUDE)
 
     if weather_data:
-        print("--- APIレスポンス全体 ---")
-        print(json.dumps(weather_data, ensure_ascii=False, indent=2))
+        # print("--- APIレスポンス全体 ---")
+        # print(json.dumps(weather_data, ensure_ascii=False, indent=2))
         with open("api_response_debug.json", "w", encoding="utf-8") as f:
             json.dump(weather_data, f, ensure_ascii=False, indent=2)
         alert_info = check_pressure_changes(weather_data)
